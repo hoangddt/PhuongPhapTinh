@@ -20,4 +20,5 @@ int main()
 	printf("Nhap x can tinh cos: \n");
 	scanf("%f", &x);
 	printf("Cos(x) = %0.2f\n", Cos(x) );
+	return 0;
 }

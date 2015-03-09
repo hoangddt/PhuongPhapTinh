@@ -46,4 +46,5 @@ int main()
 	scanf("%d", &c);
 	HoocnerRecurison(a, n, c);
 	KetQua(a,n,c);
+	return 0;
 }

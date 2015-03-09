@@ -31,4 +31,5 @@ main(){
 	Hoocner(a, n, c);
 	Out(a,n,c);
 	getch();
+	return 0;
 }
