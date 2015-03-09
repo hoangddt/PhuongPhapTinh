@@ -8,15 +8,23 @@ void Nhap(float a[], int n)
 	}
 }
 
+
 float hoocner(float a[], int n, float c)
 {
-	float p = 0;
-	for (int i = 0; i <= n; ++i)
-	{
-		p = p*c + a[i];
-	}
-	return p;
+	// Tinh theo phuong phap de quy
+	if (n == 0) return a[0];
+		return hoocner(a,n-1,c) * c + a[n];
 }
+
+// float hoocner(float a[], int n, float c)
+// {
+// 	float p = 0;
+// 	for (int i = 0; i <= n; ++i)
+// 	{
+// 		p = p*c + a[i];
+// 	}
+// 	return p;
+// }
 
 int main(int argc, char const *argv[])
 {
