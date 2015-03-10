@@ -26,7 +26,8 @@ float Tinh(float a, float b)
 		  fx,
 		  x = 0,
 		  fa = f(a),
-		  fb = f(b);
+		  fb = f(b),
+		  count = 0;
 	do
 	{
 		temp = x;
@@ -49,8 +50,8 @@ float Tinh(float a, float b)
 			thongBaoKetQua(0, false);
 			return 0;
 		}
-		// lan dau tien chi co 1 x nen chua kiem tra dieu kien
-		if (temp == 0) continue;
+		// lan dau tien chi co 1 x nen chua can kiem tra dieu kien
+		if (count++ == 0) continue;
 	}
 	while ( fabs(temp - x) > EPS );
 
