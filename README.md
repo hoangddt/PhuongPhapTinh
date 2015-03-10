@@ -1,3 +1,3 @@
 # PhuongPhapTinh
 Code for PhuongPhapTinh subject  
-Create by hoangddt
+Created by hoangddt
