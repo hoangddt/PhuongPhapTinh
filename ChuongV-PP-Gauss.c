@@ -19,7 +19,8 @@ void die(const char* message);
 
 int main()
 {
-	int n, a[max][max];
+	int n;
+	float a[max][max];
 	printf("Nhap n: \n");
 	scanf("%d", &n);
 
