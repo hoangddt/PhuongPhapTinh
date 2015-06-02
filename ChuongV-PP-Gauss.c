@@ -65,7 +65,7 @@ void BienDoi(float a[][max], int n)
 		{
 			m = - a[j][i] / a[i][i];
 			for(k = i; k<=n+1;k++)
-				a[j][k] = a[j][k]*m;
+				a[j][k] = a[i][k]*m + a[j][k];
 		}
 	}
 }
